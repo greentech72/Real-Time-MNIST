@@ -3,6 +3,7 @@
 # imports
 import cv2
 import time
+import keras
 import random
 import pickle
 import numpy as np
@@ -13,8 +14,7 @@ from matplotlib import pyplot as plt
 ACTUAL_FRAME_SIZE = 28 * 8
 
 # load model
-with open('MNIST_Model.pickle', 'rb') as f:
-	model = pickle.load(f)
+model = keras.models.load_model('MNIST_model.h5')
 
 # video capture
 cap = cv2.VideoCapture()
