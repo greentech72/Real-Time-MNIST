@@ -1,4 +1,5 @@
 # Real-Time-MNIST
+<img src='doc/sample.png'><br>
 ## Inspiration
 Everyone knows what <a href='https://en.wikipedia.org/wiki/MNIST_database'>MNIST</a> is it. 
 Recently I wanted to create something connected to <a href='https://en.wikipedia.org/wiki/Object_detection'>object detection</a>. 
@@ -25,8 +26,7 @@ or with pip:
 ```
 pip install -r requirements.txt
 ```
-<br>
-*In actual project I use tensorflow 1.13.1, so It's better to train model first:
+*In actual project I use tensorflow 1.13.1, so It's better to train model first:<br>
 ```
 python train_model.py
 ```
@@ -34,3 +34,11 @@ To run project:
 ```
 python do_rt_mnist.py
 ```
+
+## Examples
+### GIF:<br>
+<img src='doc/sample.gif'><br>
+
+### Videos:<br>
+[![Watch the video](doc/sample.png)](https://drive.google.com/file/d/1gppq8kyupItmPZNUUrqWdvrKGKpazlL-/view?usp=sharing)<br><br>
+[![Watch the video](doc/sample.png)](https://drive.google.com/file/d/1CDhCJPq_6ZVXEWrnEPmUMazkkvr7UaZU/view?usp=sharing)
