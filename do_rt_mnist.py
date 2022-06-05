@@ -5,7 +5,6 @@ import cv2
 import time
 import keras
 import random
-import pickle
 import numpy as np
 from PIL import Image
 from matplotlib import pyplot as plt
