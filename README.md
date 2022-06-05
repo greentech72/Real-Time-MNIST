@@ -17,7 +17,19 @@ Second problem was solved in a way of adding additional class to images (See <a 
 Last problem was partly solved with first one. We have only some restricted area for classification so we can adjust size of this area to later resize image with <a href='https://pillow.readthedocs.io/en/stable/'>PIL</a><br>
 
 ## Usage
-*In actual project I use tensorflow 1.13.1, so It's better to train model first<br>
+To install conda environment:
+```
+conda env create --file environment.yml
+```
+or with pip:
+```
+pip install -r requirements.txt
+```
+<br>
+*In actual project I use tensorflow 1.13.1, so It's better to train model first:
+```
+python train_model.py
+```
 To run project:
 ```
 python do_rt_mnist.py
